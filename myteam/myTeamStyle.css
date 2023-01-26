@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  top: 200px;
+  position: absolute;
+  right: 50%;
+  padding: 20px;
+  margin: 25px;
+}
+
+nav {
+  position: relative;
+}
+.navBar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.navBtn {
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+
+  font-weight: 500;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+.navBtn:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+video {
+  position: fixed;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 35%;
+}
+
+footer {
+  position: relative;
+  width: 99%;
+  height: 60px;
+  top: 115px;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 25px;
+  background-color: rgb(136, 136, 136);
+}
+
+.footerParagraph {
+  padding: 15px;
+  color: rgb(3, 3, 3);
+  margin: 0px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.bureauFoto {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.Ulrike {
+  border-radius: 15px;
+  background-image: url("/myteam/myTeamImages/ulrikeSteinhäuser.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.671);
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  filter: grayscale(100%);
+  transition: transform 0.2s;
+}
+.Ulrike:hover {
+  transition: filter 0.7s;
+  filter: grayscale(0%);
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s;
+}
+.Zörntlein {
+  border-radius: 15px;
+  background-image: url("/myteam/myTeamImages/zoerntlein.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.671);
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  filter: grayscale(100%);
+  transition: transform 0.2s;
+}
+.Zörntlein:hover {
+  transition: filter 0.7s;
+  filter: grayscale(0%);
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s;
+}
+.Graser {
+  border-radius: 15px;
+  background-image: url("/myteam/myTeamImages/carmenGraser.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.671);
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  filter: grayscale(100%);
+  transition: transform 0.2s;
+}
+.Graser:hover {
+  transition: filter 0.7s;
+  filter: grayscale(0%);
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s;
+}
+.HeikoSchmitt {
+  border-radius: 15px;
+  background-image: url("/myteam/myTeamImages/heikoSchmitt.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.671);
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  filter: grayscale(100%);
+  transition: transform 0.2s;
+}
+.HeikoSchmitt:hover {
+  transition: filter 0.7s;
+  filter: grayscale(0%);
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s;
+}
+.Kröner {
+  border-radius: 15px;
+  background-image: url("/myteam/myTeamImages/loernKröner.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.671);
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  filter: grayscale(100%);
+  transition: transform 0.2s;
+}
+.Kröner:hover {
+  transition: filter 0.7s;
+  filter: grayscale(0%);
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s;
+}
+.Diller {
+  border-radius: 15px;
+  background-image: url("/myteam/myTeamImages/michaelDiller.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.671);
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  filter: grayscale(100%);
+  transition: transform 0.2s;
+}
+.Diller:hover {
+  transition: filter 0.7s;
+  filter: grayscale(0%);
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s;
+}
+
+.Thomas {
+  border-radius: 15px;
+  background-image: url("/myteam/myTeamImages/thomasbaumgaertner.jpg");
+  background-size: cover;
+  border: 3px solid rgba(0, 0, 0, 0.671);
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  filter: grayscale(100%);
+  transition: transform 0.2s;
+}
+.Thomas:hover {
+  transition: filter 0.7s;
+  filter: grayscale(0%);
+  transform: scale(1.1, 1.1);
+  transition: transform 0.2s;
+}
+
+.team {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.Details {
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.email {
+  text-decoration: none;
+  color: rgb(190, 4, 4);
+}
+
+.subSection {
+  text-align: center;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+}

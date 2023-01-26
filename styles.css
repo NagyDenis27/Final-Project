@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  top: 200px;
+  position: absolute;
+  right: 50%;
+  padding: 20px;
+  margin: 25px;
+}
+
+section {
+  position: relative;
+  top: 50px;
+  left: 60%;
+  width: 550px;
+  height: 600px;
+  padding: 20px;
+  margin: 25px;
+}
+
+nav {
+  position: relative;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.navBtn {
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+
+  font-weight: 500;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+.navBtn:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.modalBtn {
+  position: relative;
+  font-weight: 700;
+  cursor: pointer;
+  background: lightgray;
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 25px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.modalBtn:hover {
+  color: green;
+  transition: all 0.3s;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+p {
+  color: rgb(3, 3, 3);
+  margin: 0px;
+  font-size: 20px;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 35%;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+}
+
+.imgChild1 {
+  position: relative;
+  top: 100px;
+  background-image: url("/Images/Foto1.JPG");
+  background-size: cover;
+  border: 5px solid black;
+  width: 200px;
+  height: 230px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  transition: transform 0.2s;
+  border-radius: 50px;
+}
+.imgChild2 {
+  top: 50px;
+  position: relative;
+  background-image: url("/Images/Foto2.JPG");
+  background-size: cover;
+  transition: transform 0.2s;
+  border-radius: 50px;
+  border: 5px solid black;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  width: 200px;
+  height: 230px;
+}
+
+.imgChild3 {
+  position: relative;
+  background-image: url("/Images/Foto3.jpg");
+  background-size: cover;
+
+  transition: transform 0.2s;
+  border-radius: 50px;
+  border: 5px solid black;
+  background-size: cover;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  width: 200px;
+  height: 230px;
+}
+.logo {
+  position: absolute;
+
+  right: 300px;
+  top: 10px;
+  width: 470px;
+  height: 170px;
+}
+img {
+  width: 200px;
+  height: 230px;
+  border-radius: 45px;
+}
+.imgChild3:hover {
+  transform: scale(1.5, 1.5);
+}
+.imgChild2:hover {
+  transform: scale(1.5, 1.5);
+}
+.imgChild1:hover {
+  transform: scale(1.5, 1.5);
+}
+
+footer {
+  position: relative;
+  width: 99%;
+  height: 60px;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 25px;
+  background-color: rgb(136, 136, 136);
+}
+
+.footerParagraph {
+  padding: 15px;
+}
+
+.Modal {
+  height: 500px;
+
+  width: 350px;
+  border-radius: 20px;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+form {
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.closeBtn {
+  position: absolute;
+  height: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  top: 1px;
+  cursor: pointer;
+  margin: none;
+  padding: none;
+}
+
+.contactUsText {
+  font-weight: 500;
+  margin: 5px;
+  text-align: center;
+  padding: 15px;
+}
+
+label {
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+
+  border: 10px;
+  border-bottom: 1px solid black;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: 2px solid rgb(0, 155, 34);
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+}
+
+.center {
+  text-align: center;
+}
+
+input[type="button"] {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  background: rgb(252, 0, 0);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.containerCommentbox {
+  border-radius: 20px;
+  border: 2px solid black;
+  bottom: 100px;
+  position: relative;
+  width: 300px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+.plsComment {
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+.txtArea {
+  border-radius: 7px;
+  background: rgba(128, 128, 128, 0.699);
+}
+
+.comment {
+  border: 1px solid rgba(0, 128, 0, 0.377);
+  border-radius: 5px;
+  padding: 2px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 128, 0, 0.377);
+  background: rgba(0, 128, 0, 0.377);
+  text-align: left;
+}
+.CommentSection {
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+.addCommentSection {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.delBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  padding: none;
+}
+
+.delBtn:hover {
+  color: red;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nagy Denis Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <video autoplay="" loop="" muted="">
+      <source
+        src="https://player.vimeo.com/external/173630859.hd.mp4?s=cb17e4cab09fd91319e1695d5f7d0ed9a4d8684f&amp;profile_id=174.mp4"
+        type="video/mp4"
+      />
+    </video>
+  </head>
+  <body>
+    <nav>
+      <div class="navBar">
+        <div class="navBtn"><span>Home</span></div>
+        <div class="navBtn">
+          <a href="/products/Products.html" style="text-decoration: none"
+            >Products</a
+          >
+        </div>
+        <div class="navBtn">
+          <a href="/myteam/myteam.html" style="text-decoration: none"
+            >My Team</a
+          >
+        </div>
+
+        <div class="navBtn">
+          <a href="/aboutUs/aboutUs.html" style="text-decoration: none"
+            >About Us</a
+          >
+        </div>
+      </div>
+    </nav>
+    <header>
+      <h1>Nagy Denis</h1>
+      <h2>Welcome to my Page</h2>
+      <h3>
+        Hi!<br />
+        I'm Nagy Denis and I work at Safner Druck and today I want to show you
+        what we can do for you!<br />
+        Contact me and we will do a consultation together!<br />
+        PLease click the link below:
+      </h3>
+      <a href="#" id="modalBtn"> Contact Me >> </a>
+    </header>
+    <section class="images">
+      <div class="imgChild1"></div>
+      <div class="imgChild2"></div>
+      <div class="imgChild3"></div>
+      <div class="imgChild4"><img class="logo" src="logo.png" /></div>
+    </section>
+
+    <div class="containerCommentbox">
+      <p class="plsComment">Please leave us comment:</p>
+      <div class="CommentSection"></div>
+      <div class="addCommentSection">
+        <textarea class="txtArea" id="addComment"></textarea>
+        <button id="addButton" class="addComButton">Add comment</button>
+      </div>
+    </div>
+
+    <dialog class="Modal">
+      <span class="closeBtn">&times;</span>
+      <div id="overlay">
+        <form name="contactForm">
+          <h1 class="contactUsText">Contact</h1>
+          <label for="name"> Name</label>
+          <input type="text" id="name" name="valid1" placeholder="Your Name" />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="valid2"
+            placeholder="Your Email"
+            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+            required
+          />
+          <label for="message"> Message:</label>
+          <textarea id="message" name="valid" placeholder="Your Message">
+          </textarea>
+          <div class="center">
+            <br />
+            <button
+              type="button"
+              id="submit"
+              value="Send Message"
+              class="modalBtn"
+            >
+              Sent Message
+            </button>
+            <br /><br />
+          </div>
+        </form>
+      </div>
+    </dialog>
+    <footer>
+      <p class="footerParagraph">nagydenis27@gmail.com</p>
+    </footer>
+  </body>
+</html>
